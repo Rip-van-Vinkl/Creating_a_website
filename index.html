@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Моя первая веб-страница</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <nav class="site_navigation" style="text-align: center;">
+                    <a href="#"><button>Главная</button></a>
+                    <a href="pages/about.html"><button>О нас</button></a>
+                    <a href="pages/contacts.html"><button>Контакты</button></a>
+            </nav>
+            <!-- поиск сделаю позже -->
+            <!-- <div class="search">
+                <form action="" method="get">
+                <input name="s" placeholder="Искать здесь..." type="search">
+                <button type="submit">Поиск</button>
+                </form>
+            </div> -->
+        </header>
+        <main>
+            <h1 style="text-align: center; color: red;">Моя первая веб-страница</h1>
+            <div class="table_of_contents">
+                <h1 id="table_of_contents">Содержание:</h1>
+                <ul>
+                    <li><a href="#about_me">Про меня</a></li>
+                    <li><a href="#I_want_to_learn">Чему я хочу научиться</a></li>
+                    <li><a href="#I_know">Что я уже знаю</a></li>
+                    <li><a href="#Lenin">О чём нельзя забывать</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 id="about_me">Про меня</h2>
+                <p>Меня зовут Сергей. Мне <strong>33</strong> года. У меня есть жена и двое детей.</p>
+                <p>Живу в Москве.</p>
+                <p>Работаю в аэропорту начальником группы автоматики хозяйственной службы.</p>
+                <p>Люблю читать и рисовать.</p>
+                <p>Я решил освоить новую профессию, чтобы <del>жизнь малиной не казалась</del> найти новую работу и изменить жизнь к лучшему.
+                    Для этого я записался сразу на два курса в <a href="https://skillfactory.ru/">Skillfactory:</a> Профессия Веб-разработчик и Fullstack разработчик на Python.
+                    Теперь у меня по два дедлайна в неделю и <del>жизнь малиной не кажется</del> я счастлив.</p>
+                <p><a href="#table_of_contents">к Содержанию</a></p>
+                <h2 id="I_want_to_learn">Чему я хочу научиться</h2>
+                <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты с нуля.</p>
+                <p><a href="#table_of_contents">к Содержанию</a></p>
+                <h2 id="I_know">Что я уже знаю</h2>
+                <ol>
+                    <li><h3>Связано со сферой IT:</h3>
+                        <ul>
+                            <li>Базовый Python</li>
+                            <li>Adobe Illustrator - пока было время, рисовал картиночки на стоки, например:</li>
+                        </ul>                        
+                            <img title="Драконы" src="images\Драконы.svg" width="350">
+                            <img title="Травы" src="images\Травы.svg" height="250">
+                            <img title="Орнаменты" src="images\Орнаменты.svg" width="350">
+                        <ul>
+                            <li><del>А ещё я могу объяснить бухгалтеру, почему не печатает принтер</del></li>
+                        </ul>
+                    </li>
+                    <li><h3>Не связано со сферой IT, но это интересно:</h3>
+                        <ul>
+                            <li>Владею основами техники лаковой миниатюры федоскинской школы, но пишу не на шкатулках, а на камнях.<br>
+                            Получается вот так:</li>
+                            <img title="Сова" src="images\сова.jpg" width="350">
+                            <img title="Котэ" src="images\котэ.jpg" width="350">
+                            <img title="Трава в росе" src="images\травы.jpg" width="350">                        
+                            <!--<li>Пытаюсь освоить акварель.<br>
+                                Получается пока криво))):</li>
+                                <img title="Полевые цветы" src="images\полевые цветы.jpg" width="45%">
+                                <img title="Орхидея" src="images\орхидея.jpg" width="45%"> -->
+                            <li>Как писал выше, я люблю читать. Но книги для меня - это не только хобби,
+                            но и способ пополнения семейного бюджета (хоть и не самый значительный).
+                            Лишние книги я продаю через cайт <a href="https://www.alib.ru/">Алиб</a>.
+                            Подробнее читайте здесь: <a href="pages/about.html">О нас</a></li>                        
+                            <li><del>В другой жизни я бы открыл маленькую кафешку где-нибудь в иностранщине и потчевал бы народ блюдами русской кухни, т.к. люблю и умею готовить</del></li>
+                        </ul>
+                    </li>
+                </ol>
+                <p><a href="#table_of_contents">к Содержанию</a></p>
+                <h2 id="Lenin">О чём нельзя забывать</h2>
+                <p>Помни всегда заповедь дедушки Ленина: <q>Учиться, учиться и еще раз учиться!</q></p> <!-- есть версия, что это не Он -->
+                <!--<blockquote>
+                    <p>А автором этой незатейливой мысли является литературный деятель первой половины XIX века критик Виссарион Григорьевич Белинский, вот что он пишет: «Не суйся в дела, которые до тебя не касаются, но будь верен своему делу, а твое дело — любовь к истине, да причем, тебе никто и не помешает служить ей, если ты не будишь вмешиваться не в свои дела. Итак, учиться, учиться, и еще таки учиться! К черту политику, да здравствует наука!»
+                    Это отрывок из письма Виссариона Белинского к своему товарищу Д.И.Иванову, от 7 августа 1837 года.</p>
+                </blockquote> -->
+                <p><a href="#table_of_contents">к Содержанию</a></p>
+            </div>
+        </main>
+        <footer>
+            <nav class="site_navigation" style="text-align: center;">
+                <button><a href="#">Главная</a></button>
+                <button><a href="pages/about.html">О нас</a></button>
+                <button><a href="pages/contacts.html">Контакты</a></button>
+                <button><a href="#table_of_contents">к Содержанию</a></button>
+        </nav>
+        </footer>
+    </body>
+</html>
