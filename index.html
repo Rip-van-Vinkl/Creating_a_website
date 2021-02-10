@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  lang="ru">
     <head>
         <meta charset="utf-8">
         <title>Моя первая веб-страница</title>
@@ -7,10 +7,26 @@
     </head>
     <body>
         <header>
-            <nav class="site_navigation" style="text-align: center;">
-                    <a href="#"><button>Главная</button></a>
-                    <a href="pages/about.html"><button>О нас</button></a>
-                    <a href="pages/contacts.html"><button>Контакты</button></a>
+            <nav class="site_navigation">
+                <table>
+                    <tr>
+                        <td>
+                            <form action="#">
+                                <button>Главная</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="pages/about.html">
+                                <button>О нас</button>
+                            </form>
+                        </td>
+                        <td>                              
+                            <form action="pages/contacts.html">
+                                <button>Контакты</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
             </nav>
             <!-- поиск сделаю позже -->
             <!-- <div class="search">
@@ -51,9 +67,9 @@
                             <li>Базовый Python</li>
                             <li>Adobe Illustrator - пока было время, рисовал картиночки на стоки, например:</li>
                         </ul>                        
-                            <img title="Драконы" src="images\Драконы.svg" width="350">
-                            <img title="Травы" src="images\Травы.svg" height="250">
-                            <img title="Орнаменты" src="images\Орнаменты.svg" width="350">
+                            <img title="Драконы" src="images/Драконы.svg" width="350">
+                            <img title="Травы" src="images/Травы.svg" height="250">
+                            <img title="Орнаменты" src="images/Орнаменты.svg" width="350">
                         <ul>
                             <li><del>А ещё я могу объяснить бухгалтеру, почему не печатает принтер</del></li>
                         </ul>
@@ -62,13 +78,15 @@
                         <ul>
                             <li>Владею основами техники лаковой миниатюры федоскинской школы, но пишу не на шкатулках, а на камнях.<br>
                             Получается вот так:</li>
-                            <img title="Сова" src="images\сова.jpg" width="350">
-                            <img title="Котэ" src="images\котэ.jpg" width="350">
-                            <img title="Трава в росе" src="images\травы.jpg" width="350">                        
+                        </ul>
+                            <img title="Сова" src="images/сова.jpg" width="350">
+                            <img title="Котэ" src="images/котэ.jpg" width="350">
+                            <img title="Трава в росе" src="images/травы.jpg" width="350">                        
                             <!--<li>Пытаюсь освоить акварель.<br>
                                 Получается пока криво))):</li>
-                                <img title="Полевые цветы" src="images\полевые цветы.jpg" width="45%">
-                                <img title="Орхидея" src="images\орхидея.jpg" width="45%"> -->
+                                <img title="Полевые цветы" src="images/полевые цветы.jpg" width="45%">
+                                <img title="Орхидея" src="images/орхидея.jpg" width="45%"> -->
+                        <ul>
                             <li>Как писал выше, я люблю читать. Но книги для меня - это не только хобби,
                             но и способ пополнения семейного бюджета (хоть и не самый значительный).
                             Лишние книги я продаю через cайт <a href="https://www.alib.ru/">Алиб</a>.
@@ -88,12 +106,32 @@
             </div>
         </main>
         <footer>
-            <nav class="site_navigation" style="text-align: center;">
-                <button><a href="#">Главная</a></button>
-                <button><a href="pages/about.html">О нас</a></button>
-                <button><a href="pages/contacts.html">Контакты</a></button>
-                <button><a href="#table_of_contents">к Содержанию</a></button>
-        </nav>
+            <nav class="site_navigation">
+                <table>
+                    <tr>
+                        <td>
+                            <form action="#">
+                                <button>Главная</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="pages/about.html">
+                                <button>О нас</button>
+                            </form>
+                        </td>
+                        <td>                              
+                            <form action="pages/contacts.html">
+                                <button>Контакты</button>
+                            </form>
+                        </td>
+                        <td>                              
+                            <form action="#table_of_contents">
+                                <button>к Содержанию</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
         </footer>
     </body>
 </html>

@@ -10,3 +10,12 @@ h2{
 body{
   background-color: #D4E6B3;
 }
+
+table {
+  width: 400px;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+ }
